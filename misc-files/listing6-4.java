@@ -1,5 +1,8 @@
 //************************************************************
-// Listing 6.4 in the book
+// Listing 6.4 from Java Foundations - Introduction to Program
+// Design & Data Structures, 4th edition
+// By John Lewis, Peter DePasquale, Joseph Chase
+//
 // LeftRightPanel.java      Java Foundations
 //
 // Demonstrates the use of one listener for multiple buttons.
