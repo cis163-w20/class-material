@@ -12,10 +12,12 @@ In other words:
   be mature and reproduce a new pair of bunnies
 
 This model gives:
-$$P(n) = P(n-1) + P(n-2)$$
+
+P(n) = P(n-1) + P(n-2)
 
 This produces the sequence
-$$1,1,2,3,5,8,\ldots$$
+
+1,1,2,3,5,8,...
 
 ## Task 1
 Complete the function below with an iterative
