@@ -26,7 +26,7 @@ values.  Assume 1-based numbering
 of months (so the first month is 1, not 0).
 
 ```
-public static void int piterative(int n) {
+public static int piterative(int n) {
 
 
 
@@ -52,7 +52,7 @@ values.  Assume 1-based numbering
 of months (so the first month is 1, not 0).
 
 ```
-public static void int precursive(int n) {
+public static int precursive(int n) {
 
 
 
