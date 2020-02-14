@@ -1,4 +1,4 @@
-Big Picture:
+### Big Picture:
 
 With all of the below, you should be able to look at code
 and identify what is happening to actually apply these
@@ -17,7 +17,9 @@ concepts.  For example (not all inclusive):
   drawing out what is happening behind the scenes such as
   whether two references actually point to the same memory)
 
-Overview of 
+Overview of (again, not all inclusive -- there may be concepts
+tested on the exam not listed below.
+
 * Java references
     * what are references
     * what impact does this have
@@ -55,6 +57,15 @@ Overview of
     * what happens if an unchecked exception is not handled where it occurs?
       you should be able to follow through code what is happening if
       it is handled in a different spot (or not handled at all?)
+* Recursion
+    * What is it?
+    * Be able to understand what recursive code does
+        * How many times is it called and with what arguments
+        * What is the output
+    * Difference between iterative
+    * Is there a difference in efficiency between recursive / iterative?
+    * What is the idea of memoization?
+    * Be able to write a small, simple recursive function
 * UML
     * you should understand the different relationships represented in UML
     * given code, you should be able to draw the UML diagram
@@ -70,5 +81,10 @@ Overview of
     * Why to use?
     * How they are different from anonymous classes
     * Be able to write a small one
+
+* Collections
+    * High level overview of what collection is in java
+    * What are they used for
+
 * Miscellaneous
     * `static` methods and variables - what are they, how do you access
