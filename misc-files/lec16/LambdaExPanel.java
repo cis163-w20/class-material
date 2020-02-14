@@ -22,7 +22,34 @@ public class LambdaExPanel extends JPanel {
         b2 = new JButton("Click here 2");
         b3 = new JButton("Click here 3");
 
+        // Private inner class
         b1.addActionListener(new ButtonListener());
+
+        // Anonymous class
+        b2.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                count2++;
+                lab2.setText("B2 pushes = " + count2);
+            }
+        });
+
+        // No argument labmda example
+        Runnable r = () -> System.out.println("hello");
+        
+        // Lambda expression
+        ActionListener countup = ev -> {
+            count3++;
+            lab3.setText("B3 pushes = " + count3);
+        };
+        b3.addActionListener(countup);
+        // Lambda expression
+        /*
+        b3.addActionListener(ev -> {
+            count3++;
+            lab3.setText("B3 pushes = " + count3);
+        });
+         */
+
 
         add(b1);
         add(b2);
