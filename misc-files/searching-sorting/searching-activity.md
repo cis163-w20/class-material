@@ -24,6 +24,7 @@ Describe it in words below.
 
 
 
+
 ```
 
 ## Task 2
@@ -33,9 +34,6 @@ searching for the element `50`:
 
 ```
 [10 18 20 21 25 29 30 40 50 80 81]
-
-
-
 
 
 
