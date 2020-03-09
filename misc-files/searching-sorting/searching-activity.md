@@ -32,7 +32,9 @@ Describe it in words below.
 Try stepping through your process on the following array and
 searching for the element `50`:
 
-```[10 18 20 21 25 29 30 40 50 80 81]```
+```
+[10 18 20 21 25 29 30 40 50 80 81]
+```
 
 ```
 
