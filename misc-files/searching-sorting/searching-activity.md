@@ -18,18 +18,12 @@ we could implement this that would be more efficient?
 Describe it in words below.
 
 ```
-.
 
 
 
 
 
 
-
-
-
-
-.
 ```
 
 ## Task 2
@@ -50,7 +44,7 @@ searching for the element `50`:
 
 
 
-.
+
 ```
 
 
@@ -69,15 +63,21 @@ public static int search(int[] data, int element) {
 
 
 
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
