@@ -17,7 +17,18 @@ If the input array was sorted, is there a way
 we could implement this that would be more efficient?
 Describe it in words below.
 
-<br><br><br><br><br>
+```.
+
+
+
+
+
+
+
+
+
+
+.```
 
 ## Task 2
 
@@ -37,6 +48,7 @@ searching for the element `50`:
 
 
 
+.
 ```
 
 
@@ -55,22 +67,15 @@ public static int search(int[] data, int element) {
 
 
 
+
+
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
-
