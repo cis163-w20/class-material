@@ -15,12 +15,14 @@ public class ArrayStack {
     /* constructor with default initial capcity */
     public ArrayStack() {
         stack = new Integer[64];
+        top = 0;
         size = 0;
     }
 
     /* constructor specifying capacity */
     public ArrayStack(int initialCapacity) {
         stack = new Integer[initialCapacity];
+        top = 0;
         size = 0;
     }
 
